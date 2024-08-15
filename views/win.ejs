@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= title %></title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f0f0f0;
+      background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-size: cover; /* Scales the image to cover the entire background */
+ 
+      background-image: url(https://humornama.com/wp-content/uploads/2021/10/Ek-Crore-Meme-on-Amitabh-Bachchan-KBC.jpg);
+    }
+    .container {
+      width: 50%;
+      margin: 40px auto;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgb(238, 233, 233);
+      h1 {
+  color: #eae4e3; /* Changes text color for all <h1> elements */
+}
+p {
+  color: #f4f8f7; /* Changes text color for all <p> elements */
+}
+background-image: url(https://th.bing.com/th/id/OIP.ly9dLtkHSGN2jjyUCFu-8gHaEo?w=281&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1><%= title %></h1>
+    <p>Congratulations! You guessed the secret number: <%= secretNumber %></p>
+    <button onclick="location.href='/'">Play Again!</button>
+  </div>
+</body>
+</html>
+<!--when u win it will display-->
